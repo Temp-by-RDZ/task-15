@@ -17,7 +17,7 @@ public class Notebook {
 		if (Arrays.asList(Initialization.marks).contains(mark)) this.mark = mark;
 		}
 
-	public boolean compare(Notebook over) {
+	public boolean compare(Notebook over) { //Метод сравнения двух элементов
 		if (cost==over.cost) {
 			if  (memory==over.memory) {
 				return (Arrays.asList(Initialization.marks).indexOf(mark))  >  (Arrays.asList(Initialization.marks).indexOf(over.mark));
